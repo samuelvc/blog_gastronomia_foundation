@@ -1,0 +1,162 @@
+body{
+	background: url(../img/fondo.jpg);
+}
+
+.logo-img{
+  width: 30%;
+}
+
+.panels{
+	background-color: #f5f5f5;
+}
+
+img{
+  max-height: 129px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+.titulo{
+	color: #606060;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.slogan{
+	color: #606060;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.callout.primary {
+    background-color: #f5f5f5;
+}
+
+.logo-img-user {
+  width: 24px; height: 24px;
+}
+
+.callout {
+    margin: 0 0 1rem;
+    padding: 1px;
+}
+
+p{
+	padding: 2px; text-align: justify; font-family: sans-serif;
+}
+
+.alink{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #3c3c3c;
+	font-weight: bold;
+}
+
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.img-movies {
+  height: 100%;
+  padding: 1px;
+  margin-top: 22px;
+  width: 100%;
+}
+
+.movie-title {
+  color: #FFFFFF;
+}
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.titulo-cartelera {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.95);
+}
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-column {
+  margin-top: 5px;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+}
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 250px;;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+
+  .jumbotron-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .img-movies {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
+  }
+}
